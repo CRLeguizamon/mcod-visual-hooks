@@ -1,0 +1,35 @@
+.mcod-admin-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mcod-admin-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.mcod-admin-title {
+    color: #23282d;
+    font-size: 24px;
+    margin: 0;
+}
+
+.mcod-admin-content {
+    max-width: 800px;
+}
+
+.mcod-admin-card {
+    background: #f8f9fa;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.mcod-admin-card h3 {
+    margin-top: 0;
+    color: #23282d;
+} 

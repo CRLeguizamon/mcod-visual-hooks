@@ -1,0 +1,60 @@
+/* Estilos generales para los ganchos visuales */
+.mcod-visitors-counter,
+.mcod-testimonials,
+.mcod-buyers-counter,
+.mcod-discount {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilos específicos para cada tipo de gancho */
+.mcod-visitors-counter {
+    border-left: 4px solid #4CAF50;
+}
+
+.mcod-testimonials {
+    border-left: 4px solid #2196F3;
+}
+
+.mcod-buyers-counter {
+    border-left: 4px solid #FF9800;
+}
+
+.mcod-discount {
+    border-left: 4px solid #F44336;
+}
+
+/* Estilos para los números y textos */
+.mcod-number {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.mcod-label {
+    font-size: 1.1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .mcod-number {
+        font-size: 2em;
+    }
+    
+    .mcod-label {
+        font-size: 1em;
+    }
+}
+
+.mcod-product-viewing .visitor-count {
+    display: inline-block;
+    position: relative;
+    transition: all 0.2s ease;
+} 
